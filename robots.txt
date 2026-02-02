@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /swindle/
+# Add more subdirectories as needed
+# Disallow: /other-site/
