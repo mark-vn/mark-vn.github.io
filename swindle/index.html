@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Swindle</title>
+    <title>SWINDLE EPI - 2002-2006</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        body {
+            font-family: monospace;
+        }
         .video-bg {
             position: fixed;
             top: 0;
@@ -26,11 +29,13 @@
             z-index: -1;
         }
     </style>
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <script src="https://kit.fontawesome.com/99a4ff3e68.js" crossorigin="anonymous"></script>
 </head>
 <body class="min-h-screen flex items-center justify-center">
     <!-- Background Video -->
     <video class="video-bg" autoplay muted loop playsinline>
-        <source src="background.mp4" type="video/mp4">
+        <source src="grange.mp4" type="video/mp4">
     </video>
 
     <!-- Dark Overlay -->
@@ -40,30 +45,32 @@
     <main class="text-center text-white p-8">
         <!-- Logo -->
         <img
-            src="logo.png"
-            alt="Swindle"
-            class="w-48 h-48 sm:w-64 sm:h-64 mx-auto mb-8 object-contain"
+            src="swindle-text.png"
+            alt="SWINDLE EPI band logo, hand drawn in white"
+            class="w-64 h-64 sm:w-64 sm:h-64 mx-auto object-contain"
         >
-
-        <!-- Links -->
-        <nav class="flex flex-col gap-4">
+        <p class="center mb-4">ALBANY HARDCORE PUNK 2002-2006</p>
+        <nav class="block flex flex-col gap-4 mb-8">
             <a
-                href="#"
-                class="px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition-colors duration-300"
+                href="https://open.spotify.com/album/1oFK9QVmuMKtiTPcduYkMr?si=fqbpzAprRrWJANHQamHafg"
+                target="_blank"
+                class="px-8 py-3 border border-white hover:bg-white hover:text-black transition-colors duration-300"
             >
-                Listen
+                <i class="fa-brands fa-spotify"></i> SPOTIFY
             </a>
             <a
-                href="#"
-                class="px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition-colors duration-300"
+                href="https://swindle-epi.bandcamp.com/album/winners-burning"
+                target="_blank"
+                class="px-8 py-3 border border-white  hover:bg-white hover:text-black transition-colors duration-300"
             >
-                Shows
+                <i class="fa-brands fa-bandcamp"></i> BANDCAMP
             </a>
             <a
-                href="#"
-                class="px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition-colors duration-300"
+                href="https://drive.google.com/drive/folders/1ZjHaDZqSZu6wh1g_CsB8N590a4Qdoilm?usp=drive_link"
+                target="_blank"
+                class="px-8 py-3 border border-white hover:bg-white hover:text-black transition-colors duration-300"
             >
-                Contact
+                <i class="fa-brands fa-google-drive"></i> ARCHIVE
             </a>
         </nav>
     </main>
